@@ -3,18 +3,78 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    color: #ffffffc4;
+    color: #e9e2e2c4;
 }
 body{
-    background-color: rgb(19, 77, 87);
+    background-color: rgb(90, 151, 161);
 }
 .img-1{
     display: flex;
     
 }
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
 .caja-1{
+    display: flex;
+   justify-content: space-between;
+    gap: 30px;
 
 }
-.lista-1{
-    
+
+.lista{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 50px;
+
 }
+.caja-1{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 10px;
+
+}
+.caja-1 .caja-2{
+    
+        padding:30px 20px 30px 20px;
+        height: 75%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;  
+        border-radius: 1px;
+        border: 1px solid black;
+        width: 250px;
+    height: 300px;
+    }
+    
+    
+.caja-1 .caja-3{
+        padding:30px 20px 30px 20px;
+        height: 75%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 1px;
+        border: 1px solid black;
+}
+
+.caja-1 .caja-4{
+    padding:30px 20px 30px 20px;
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1px;
+    border: 1px solid black;
+
+}
+
